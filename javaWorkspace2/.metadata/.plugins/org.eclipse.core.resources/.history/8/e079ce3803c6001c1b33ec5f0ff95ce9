@@ -1,0 +1,20 @@
+package getTitleProgram;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class FaceBookPageOpen
+{
+public static void main(String[] args) 
+{
+	//Absolute path
+	String driverpath="E:\\Acceleration\\Automation testing\\Selenium Program\\msedgedriver.exe";
+	//set property path
+	System.setProperty("webdriver.edgedriver.driver", driverpath);
+	//instance create
+	WebDriver object=new EdgeDriver ();
+	object.get("https://www.facebook.com/login.php?msclkid=82bd4b42c60011ec836b2d9f37bb1b88");
+	
+	//get the 
+}
+}

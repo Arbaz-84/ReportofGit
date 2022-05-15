@@ -1,0 +1,5 @@
+package synchronizationWaits;
+
+public class ExplicityAndImplicityWait {
+
+}

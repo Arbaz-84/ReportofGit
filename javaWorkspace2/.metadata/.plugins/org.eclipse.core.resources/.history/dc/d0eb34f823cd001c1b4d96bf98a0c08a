@@ -1,0 +1,32 @@
+package AbstractionProgram;
+abstract class Bike1
+{
+   Bike()
+   {
+	   System.out.println("Bike Is created");
+   }
+   //create abstract method
+   abstract void run();
+   void changeGear()
+   {
+	   System.out.println("Gear changed");
+   }
+   
+}
+class Honda1 extends Bike1
+{
+	void run()
+	{
+		System.out.println("Running safely**");
+	}
+}
+public class Program3 
+{
+	public static void main(String[] args) {
+		
+    //Createing Child class object 
+	Bike1 obj=new Honda1();
+	obj.run();
+	obj.changeGear();
+	}
+}

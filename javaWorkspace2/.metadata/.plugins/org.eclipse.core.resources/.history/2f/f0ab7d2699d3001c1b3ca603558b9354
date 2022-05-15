@@ -1,0 +1,24 @@
+package String;
+
+public class StringReverse {
+	public static void main(String[] args) {
+	
+	String strName1="Basic Core Java";
+	String strName2="";
+	int count=0;
+	//Reverse the String cha.
+	System.out.println("Reverse the string");
+	for(int i=strName1.length()-1;i>=0;i--)
+	{
+		strName2=strName2+strName1.charAt(i);
+	}
+	System.out.println(strName2);
+	//Find the Length og Element 
+	for(int i=0;i<strName1.length();i++)
+	{
+		if(strName1.charAt(i)!=' ')
+			count ++;
+	}
+	System.out.println("Number of characteries in string::"+count);
+  }
+}

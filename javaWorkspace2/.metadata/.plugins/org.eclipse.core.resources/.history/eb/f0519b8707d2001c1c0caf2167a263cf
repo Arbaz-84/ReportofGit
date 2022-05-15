@@ -1,0 +1,9 @@
+package arrayPracticeProgram;
+
+public class ArrayDuplicateElement01 {
+    public static void main(String[] args) {
+		int arr1[]= {1,2,5,8,1,2,9,5,4,3,8};
+		//Print Orignal Element of Array
+		System.out.println(arr1);
+	}
+}

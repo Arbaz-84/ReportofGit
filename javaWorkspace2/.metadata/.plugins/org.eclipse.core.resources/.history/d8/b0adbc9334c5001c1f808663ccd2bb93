@@ -1,0 +1,5 @@
+package withOutConstructorProgram;
+
+public class WithoutConstructor {
+
+}

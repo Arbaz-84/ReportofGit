@@ -1,0 +1,23 @@
+package handlingMultipleElements;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class demoBlaze 
+{
+    public static void main(String[] args) 
+    {
+	    String str="E:\\Acceleration\\Automation testing\\javaWorkspace2\\SeleniumTesting\\executables\\chromedriver.exe";
+	    System.setProperty("webdriver.chrome.driver",str);
+	    WebDriver driver=new ChromeDriver();
+	    driver.manage().window().maximize();
+	    //Implicit wait
+	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	    driver.get("https://www.demoblaze.com/prod.html?idp_=5");
+	    
+	} 
+    
+}

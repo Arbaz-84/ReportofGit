@@ -1,0 +1,23 @@
+package com.gecko.webdriver.testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SwagLabs {
+	public static void main(String[] args) {
+		
+    //Absolute path 
+	String driverPath="E:\\Acceleration\\Automation testing\\Selenium Driver\\geckodriver.exe";
+	//Useing System.setProperty
+	System.setProperty("webdriver.gecko.driver",driverPath);
+	//Instance create
+	WebDriver object=new FirefoxDriver();
+	object.get("https://www.saucedemo.com/");
+	
+	//Getting TitlePage Name and verification useing sendkeys
+	//WebElement actualTitleName=object.findElements(By.id("Swag Labs"));
+	
+}
+}

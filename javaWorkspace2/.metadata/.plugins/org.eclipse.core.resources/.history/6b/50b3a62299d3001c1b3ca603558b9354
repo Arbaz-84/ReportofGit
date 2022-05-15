@@ -1,0 +1,21 @@
+package String;
+
+public class StringReverse {
+	public static void main(String[] args) {
+	
+	String strName1="Basic Core Java";
+	String strName2="";
+	System.out.println("Normal Flow of string");
+	for(int i=0;i<strName1.length();i++)
+	{
+		strName2=strName2+strName1.charAt(i);
+	}
+	System.out.println(strName2);
+	System.out.println("Reverse the string");
+	for(int i=strName1.length()-1;i>=0;i--)
+	{
+		strName2=strName2+strName1.charAt(i);
+	}
+	System.out.println(strName2);
+  }
+}

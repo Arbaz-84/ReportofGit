@@ -1,0 +1,33 @@
+package program;
+
+// creating parent class
+//class Vehicle 
+{
+
+public static void main(String[] args) 
+{
+	//creating object for calling non-static member
+class Vehicle
+{
+    void run()
+    {
+	     System.out.println("Vehicle is Running");
+    }
+}
+//creating Child class
+class Bike2 extends Vehicle
+{
+     void run()
+     {
+         System.out.println("Bike Running safely");}
+     }
+}
+class Program1
+{
+	public static void main(String[] args) 
+	{
+		Bike2 obj=new Bike2();
+		obj.run();
+	}
+}
+}

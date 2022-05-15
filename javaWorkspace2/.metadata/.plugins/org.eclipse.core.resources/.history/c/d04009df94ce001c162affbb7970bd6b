@@ -1,0 +1,13 @@
+package stringProgram;
+
+public class PalindromeString01 {
+public static void main(String[] args) {
+	String name1="Level";
+	String reverse=" ";
+	//Useing For loop for reverseing string and Identifying the string is palindrome or not
+	for(int i=0;i<name1.length();i++)
+	{
+		
+	}
+}
+}

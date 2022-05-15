@@ -1,0 +1,23 @@
+package synchronizationWaits;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ExplicityAndImplicityWait 
+{
+   //Absolute path 
+	String path="E:\\Acceleration\\Automation testing\\Selenium Program\\geckodriver.exe";
+	//use set propety
+	System.setProperty("webdriver.gecko.driver","E:\\Acceleration\\Automation testing\\Selenium Program\\geckodriver.exe");
+	//create instance 
+	WebDriver object=new FirefoxDriver();
+	object.get("https://opensource-demo.orangehrmlive.com/");
+	
+			
+			
+	
+	
+	
+	
+	
+}

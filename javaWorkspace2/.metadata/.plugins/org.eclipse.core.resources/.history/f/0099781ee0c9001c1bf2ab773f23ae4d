@@ -1,0 +1,14 @@
+package stringReverse;
+
+public class StringReverse2 {
+
+	public static void main(String[] args) {
+	String name="welCome Java";
+	//create StringBuffer object for reverseString
+	StringBuffer rev=new StringBuffer();
+	rev.reverse();
+	System.out.println("Useing StringBuufer For Reverse word: "+rev);
+
+	}
+
+}

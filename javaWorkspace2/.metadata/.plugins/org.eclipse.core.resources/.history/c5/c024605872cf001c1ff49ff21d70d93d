@@ -1,0 +1,26 @@
+package com.locators;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Vtiger 
+{
+     public static void main(String[] args)
+     {
+		//Absolute path
+    	 String path="E:\\Acceleration\\Automation testing\\javaWorkspace2\\SeleniumTesting\\executables\\chromedriver.exe";
+	    //Useing System.setProperty for set driver path
+    	 System.setProperty("webdriver.chrome.driver",path);
+    	 //Create Instance 
+    	 WebDriver object=new ChromeDriver();
+    	 //Useing get() get browser page
+    	 object.get("https://demo.vtiger.com/vtigercrm/index.php");
+    	object.findElement(By.className("button buttonBlue")).click();
+    	
+    	
+    	 
+    	 
+     }
+}

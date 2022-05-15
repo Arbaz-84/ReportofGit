@@ -1,0 +1,18 @@
+package stringProgram;
+
+public class PalindromeString01 {
+public static void main(String[] args) {
+	String name1="Level";
+	String reverse=" ";
+	System.out.println("Finding string length:"+name1.length());
+	System.out.println("Reverse the string:"+name1.re);
+	//Reverse the string 
+	for(int i=name1.length()-1;i>=0;i--)
+	{
+		reverse=reverse+name1.charAt(i);
+		
+	}
+	
+	System.out.println("Reverse string:"+reverse);
+}
+}

@@ -1,0 +1,28 @@
+package com;
+
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+
+public class SetDemo {
+public static void main(String[] args) 
+{
+
+	LinkedHashSet<Integer> object = new LinkedHashSet<Integer>();
+	object.add(10);
+	object.add(80);
+	object.add(null);
+	object.add(80);
+	object.add(70);
+	
+	for(int i =0; i<object.size(); i++)
+	{
+		System.out.println(object[i]);
+	}
+	
+	Iterator<Integer> iterator = object.iterator();
+	while(iterator.hasNext())
+	{
+		
+	}
+}
+}

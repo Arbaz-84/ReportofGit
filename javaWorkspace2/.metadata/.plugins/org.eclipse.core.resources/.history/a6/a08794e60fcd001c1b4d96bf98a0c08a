@@ -1,0 +1,38 @@
+package SingleInheritance;
+class company
+{
+	static int add (int a,int b)
+	{
+		return (a+b);
+	}
+	static int add(int a, int b, int c)
+	{
+		return (a+b+c);
+	}
+}
+class employee extends company
+{
+	String employeeName(String name1,String name2)
+	{
+		return name1+name2;
+		
+	}
+	String employeeName(String name1,String name2,String name3)
+	{
+		return name1+name2+name3;
+		
+	}
+}
+public class Program3
+{
+	public static void main(String[] args)
+{
+	//create Parent Class object
+	//company  obj=new company(10,20,30);
+		System.out.println(company.add(12,12));
+	//Create Child Class Object 
+	employee b1=new employee();
+	System.out.println("Print Employee Name:"+b1.employeeName("Arbaz","Shaikh"));
+	System.out.println("Print Employee Name: "+b1.employeeName("Core", "Java", "Basic"));
+}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;arraysPrograms.reverseOrder&apos; to &apos;ReverseOrder&apos;&#x0D;&#x0A;- Original project: &apos;Array&apos;&#x0D;&#x0A;- Original element: &apos;arraysPrograms.reverseOrder&apos;&#x0D;&#x0A;- Renamed element: &apos;arraysPrograms.ReverseOrder&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;reverseOrder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arraysPrograms{reverseOrder.java[reverseOrder" matchStrategy="1" name="ReverseOrder" qualified="false" references="true" similarDeclarations="false" stamp="1651846485035" textual="false" version="1.0"/>
+</session>

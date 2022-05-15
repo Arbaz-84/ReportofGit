@@ -1,0 +1,35 @@
+package this_Keywords;
+
+public class ThisKeywords02
+{
+   int variable=51;
+   public static void main(String[] args) 
+   {
+	// Create Object for calling the Non-static member
+	   ThisKeywords02 b=new ThisKeywords02();
+	   b.method(20);
+	   
+
+   }
+   void method(int variable)
+   {
+	   System.out.println("Value of Local Variable:"+variable);
+	   variable =10;
+	   System.out.println("Value of Local Variable:"+variable);
+	   this.variable=variable;
+	   System.out.println("Value of Instance variable:"+variable);
+	   System.out.println("Value of Local variable:"+this.variable);
+	   System.out.println("Value of Instance variable:"+this.variable);
+	   
+   }
+   void method()
+   {
+	   int variable=40;
+	   System.out.println("Value of Instance variable:"+this.variable);
+	   System.out.println("Value of Local variable:"+variable);
+	   this.variable=variable;
+	   System.out.println("Value of Instance variable:"+this.variable);
+	   System.out.println("Value of Local variable:"+variable);
+	   
+   }
+}

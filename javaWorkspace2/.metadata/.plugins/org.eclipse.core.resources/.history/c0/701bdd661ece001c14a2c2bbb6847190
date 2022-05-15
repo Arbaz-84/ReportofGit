@@ -1,0 +1,25 @@
+package stringProgram;
+
+public class Concat_Example03 
+{
+public static void main(String[] args)
+{
+	String str1="The best",str2="of both words",str3=str1+str2;
+	System.out.println(str3);
+	System.out.println("***************");
+	System.out.println("Useing Concat method:"+str1.concat(str2));
+	
+	String name="The Basic java";
+	String name1="Class";
+	// useing for loop
+	System.out.println(name.length());
+	System.out.println(name1.length());
+	
+	System.out.println("**************************");
+	
+	String string = "DhanoriPune";// output: enuPironahD
+
+	char c = string.charAt(3);
+	System.out.println("Char at index 2: " + c);
+}
+}
